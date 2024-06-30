@@ -56,7 +56,7 @@
       hsl(344deg 0% 21%) 66%,
       hsl(0deg 0% 18%) 100%);
   background-size: 400% 400%;
-  animation: gradient 6s ease infinite;
+  animation: gradient 3s ease infinite;
   height: 100vh;
   clip-path: circle(10px at calc(100% - 45px) 45px);
   transition: all 0.4s ease-in-out;
@@ -145,7 +145,7 @@
 }
 
 .wrapper ul li {
-  margin: 25px 0;
+  margin: 69px 0;
 }
 
 .wrapper ul li a {
@@ -154,7 +154,7 @@
   font-size: 20px;
   font-weight: 400;
   padding: 5px 30px;
-  color: #999999;
+  color: #bdbdbd;
   position: relative;
   line-height: 50px;
   transition: all 0.3s ease;
@@ -162,7 +162,7 @@
   font-family: "Share Tech Mono", monospace;
   font-weight: 100;
   font-style: normal;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   opacity: 0.8;
   transform: scale(.1, 1);
 }
