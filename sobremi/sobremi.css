@@ -259,11 +259,11 @@ li.bio-item a {
     overflow: auto;
     height: 81%;
     font-family: 'Saira Variable';
-    font-size: 17px;
+    font-size: 14.5px;
 }
 
 .bio-extra a {
-    background-color: #e7e70c;
+    background-color: #f3f308;
     color: #000;
 }
 
