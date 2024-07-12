@@ -141,9 +141,10 @@ p {
 }
 
 .profile-avatar img {
+    opacity: 89%;
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: width 0.3s ease;
@@ -252,18 +253,22 @@ li.bio-item a {
 }
 
 .bio-extra {
-    padding: 50px;
+    text-justify: auto;
+    padding-top: 87px;
+    padding-inline-start: 16px;
     overflow: auto;
     height: 81%;
+    font-family: 'Saira Variable';
+    font-size: 17px;
 }
 
 .bio-extra a {
-    background-color: #ffff00;
+    background-color: #e7e70c;
     color: #000;
 }
 
 .bio-extra p {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 
