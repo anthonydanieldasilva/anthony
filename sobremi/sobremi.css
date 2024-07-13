@@ -141,10 +141,10 @@ p {
 }
 
 .profile-avatar img {
-    opacity: 89%;
+    opacity: 80%;
     width: 100%;
     position: absolute;
-    top: 44%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: width 0.3s ease;
