@@ -41,36 +41,33 @@ body {
     opacity: 1;
 }
 
-.slide .content {
-    position:fixed;
-    bottom: 10px;
-    left: -600px;
-    opacity: 5;
-    background: linear-gradient(220deg,
-            hsl(0deg 0% 40%) 0%,
-            hsl(344deg 0% 37%) 23%,
-            hsl(344deg 0% 34%) 33%,
-            hsl(344deg 0% 30%) 40%,
-            hsl(344deg 0% 27%) 47%,
-            hsl(344deg 0% 24%) 54%,
-            hsl(344deg 0% 21%) 66%,
-            hsl(0deg 0% 18%) 100%);
-    color: #0a0a0a;
-    padding: 50px;
-    padding-top: 12px;
-}
 
-.slide .content h1 {
-    text-align: center;
+
+.slide h1 {
     font-family: 'Saira Variable';
-    font-size: 24px;
-    font-weight: 413;
+    font-size: 16px;
+    font-weight: 150;
+    background: linear-gradient(220deg,
+      hsl(0deg 0% 40%) 0%,
+      hsl(344deg 0% 37%) 23%,
+      hsl(344deg 0% 34%) 33%,
+      hsl(344deg 0% 30%) 40%,
+      hsl(344deg 0% 27%) 47%,
+      hsl(344deg 0% 24%) 54%,
+      hsl(344deg 0% 21%) 66%,
+      hsl(0deg 0% 18%) 100%);
+    opacity: 0.4;
+    letter-spacing: 1.1px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    border-radius: 3px;
 }
 
 .slide.current .content {
     opacity: 0.8;
     transform: translateX(600px);
-    transition: all 0.7s ease-in-out 0.3s;
+    
 }
 
 .buttons button#next {
