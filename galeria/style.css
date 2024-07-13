@@ -55,8 +55,9 @@ body {
             hsl(344deg 0% 24%) 54%,
             hsl(344deg 0% 21%) 66%,
             hsl(0deg 0% 18%) 100%);
-    color: #070707;
-    padding: 55px;
+    color: #0a0a0a;
+    padding: 50px;
+    padding-top: 12px;
 }
 
 .slide .content h1 {
