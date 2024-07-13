@@ -96,8 +96,7 @@ body {
   font-family: 'Saira Variable';
   padding-top: 25%;
   text-align: center;
-  top: 10%;
-  font-size: 16px;
+  font-size: 19px;
   background-color: #1a1919;
   background-clip: border-box;
   text-emphasis-color: transparent;
@@ -105,7 +104,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-emphasis-color: transparent;
-  animation: textclip 20s linear infinite;
+  animation: textclip 2s linear infinite;
 }
 
 @keyframes textclip {
