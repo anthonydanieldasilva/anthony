@@ -45,8 +45,8 @@ body {
 
 .slide h1 {
     font-family: 'Saira Variable';
-    font-size: 16px;
-    font-weight: 150;
+    font-size: 15px;
+    font-weight: 152;
     background: linear-gradient(220deg,
       hsl(0deg 0% 40%) 0%,
       hsl(344deg 0% 37%) 23%,
@@ -57,10 +57,10 @@ body {
       hsl(344deg 0% 21%) 66%,
       hsl(0deg 0% 18%) 100%);
     opacity: 0.4;
-    letter-spacing: 1.1px;
+    letter-spacing: 1px;
     position: absolute;
-    bottom: 8px;
-    left: 10px;
+    bottom: 14px;
+    left: 19px;
     border-radius: 3px;
 }
 
@@ -115,48 +115,69 @@ body {
 /* Backgorund Images */
 
 .slide:first-child {
-    background: url('/galeria/imagenes/GALERIA1\ \(1\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Fotografia\ \(1\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(2) {
-    background: url('/galeria/imagenes/GALERIA1\ \(2\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Fotografia\ \(2\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(3) {
-    background: url('/galeria/imagenes/GALERIA1\ \(3\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Fotografia\ \(3\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(4) {
-    background: url('/galeria/imagenes/GALERIA1\ \(4\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Fotografia\ \(4\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(5) {
-    background: url('/galeria/imagenes/GALERIA1\ \(5\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Fotografia\ \(5\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(6) {
-    background: url('/galeria/imagenes/GALERIA1\ \(6\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Fotografia\ \(6\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(7) {
-    background: url('/galeria/imagenes/GALERIA1\ \(7\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Fotografia\ \(7\).jpg') no-repeat center top/cover;
 }
 .slide:nth-child(8) {
-    background: url('/galeria/imagenes/GALERIA1\ \(8\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Fotografia\ \(8\).jpg') no-repeat center top/cover;
 }
 .slide:nth-child(9) {
-    background: url('/galeria/imagenes/GALERIA1\ \(9\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Fotografia\ \(9\).jpg') no-repeat center top/cover;
 }
 .slide:nth-child(10) {
-    background: url('/galeria/imagenes/GALERIA1\ \(10\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Fotografia\ \(10\).jpg') no-repeat center top/cover;
 }
 .slide:nth-child(11) {
-    background: url('/galeria/imagenes/GALERIA1\ \(11\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Marketing_Branding\ \(1\).jpg') no-repeat center top/cover;
 }
 .slide:nth-child(12) {
-    background: url('/galeria/imagenes/GALERIA1\ \(12\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Marketing_Branding\ \(2\).jpg') no-repeat center top/cover;
 }
 .slide:nth-child(13) {
-    background: url('/galeria/imagenes/GALERIA1\ \(13\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Marketing_Branding\ \(3\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(14) {
+    background: url('/galeria/imagenes/Marketing_Branding\ \(4\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(15) {
+    background: url('/galeria/imagenes/Marketing_Branding\ \(5\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(16) {
+    background: url('/galeria/imagenes/Marketing_Branding\ \(6\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(17) {
+    background: url('/galeria/imagenes/Marketing_Branding\ \(7\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(18) {
+    background: url('/galeria/imagenes/Marketing_Branding\ \(8\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(19) {
+    background: url('/galeria/imagenes/Marketing_Branding\ \(9\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(20) {
+    background: url('/galeria/imagenes/Marketing_Branding\ \(10\).jpg') no-repeat center top/cover;
 }
 
