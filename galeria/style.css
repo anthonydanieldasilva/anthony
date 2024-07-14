@@ -59,8 +59,9 @@ body {
     opacity: 0.4;
     letter-spacing: 1px;
     position: absolute;
-    bottom: 14px;
-    left: 19px;
+    text-align: center;
+    top: 4%;
+    left: 35;
     border-radius: 3px;
 }
 
