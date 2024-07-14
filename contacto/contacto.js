@@ -4,10 +4,10 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('¿ Alguna idea ?')
+typewriter.typeString('! Hablemos !')
     .pauseFor(900)
     .deleteAll()
-    .typeString('! Hablemos !')
+    .typeString('¿Alguna idea en mente?')
     .pauseFor(900)
     .deleteAll()
     .start();
