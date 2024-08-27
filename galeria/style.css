@@ -173,7 +173,7 @@ body {
     background: url('/galeria/imagenes/Marketing_Branding\ \(7\).jpg') no-repeat center top/cover;
 }
 .slide:nth-child(18) {
-    background: url('/galeria/imagenes/Marketing_Branding\ \(8\).jpg') no-repeat center top/cover;
+    background: url('/galeria/imagenes/Marketing_Branding\ \(8\).png') no-repeat center top/cover;
 }
 .slide:nth-child(19) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(9\).jpg') no-repeat center top/cover;
@@ -181,4 +181,6 @@ body {
 .slide:nth-child(20) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(10\).jpg') no-repeat center top/cover;
 }
-
+.slide:nth-child(21) {
+    background: url('/galeria/imagenes/Marketing_Branding\ \(11\).jpg') no-repeat center top/cover;
+}
