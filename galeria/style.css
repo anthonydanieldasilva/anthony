@@ -149,38 +149,35 @@ body {
     background: url('/galeria/imagenes/Fotografia\ \(9\).jpg') no-repeat center top/cover;
 }
 .slide:nth-child(10) {
-    background: url('/galeria/imagenes/Fotografia\ \(10\).jpg') no-repeat center top/cover;
-}
-.slide:nth-child(11) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(1\).jpg') no-repeat center top/cover;
 }
-.slide:nth-child(12) {
+.slide:nth-child(11) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(2\).jpg') no-repeat center top/cover;
 }
-.slide:nth-child(13) {
+.slide:nth-child(12) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(3\).jpg') no-repeat center top/cover;
 }
-.slide:nth-child(14) {
+.slide:nth-child(13) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(4\).jpg') no-repeat center top/cover;
 }
-.slide:nth-child(15) {
+.slide:nth-child(14) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(5\).jpg') no-repeat center top/cover;
 }
-.slide:nth-child(16) {
+.slide:nth-child(15) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(6\).jpg') no-repeat center top/cover;
 }
-.slide:nth-child(17) {
+.slide:nth-child(16) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(7\).jpg') no-repeat center top/cover;
 }
-.slide:nth-child(18) {
+.slide:nth-child(17) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(8\).png') no-repeat center top/cover;
 }
-.slide:nth-child(19) {
+.slide:nth-child(18) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(9\).jpg') no-repeat center top/cover;
 }
-.slide:nth-child(20) {
+.slide:nth-child(19) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(10\).jpg') no-repeat center top/cover;
 }
-.slide:nth-child(21) {
+.slide:nth-child(20) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(11\).jpg') no-repeat center top/cover;
 }
