@@ -181,3 +181,9 @@ body {
 .slide:nth-child(20) {
     background: url('/galeria/imagenes/Marketing_Branding\ \(11\).jpg') no-repeat center top/cover;
 }
+.slide:nth-child(21) {
+    background: url('/galeria/imagenes/Website\ \(1\).png') no-repeat center top/cover;
+}
+.slide:nth-child(22) {
+    background: url('/galeria/imagenes/Website\ \(2\).png') no-repeat center top/cover;
+}
