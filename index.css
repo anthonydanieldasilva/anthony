@@ -259,7 +259,7 @@ input[type="checkbox"] {
 .loader-page::before {
   content: "";
   position: absolute;
-  border: 3px solid rgba(36, 180, 173, 0.712);
+  border: 3px solid rgba(27, 26, 26, 0.726);
   width: 50px;
   height: 50px;
   border-radius: 50%;
