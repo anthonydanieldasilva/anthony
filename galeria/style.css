@@ -187,3 +187,6 @@ body {
 .slide:nth-child(22) {
     background: url('/galeria/imagenes/Website\ \(2\).png') no-repeat center top/cover;
 }
+.slide:nth-child(23) {
+    background: url('/galeria/imagenes/Website\ \(3\).jpg') no-repeat center top/cover;
+}

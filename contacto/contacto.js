@@ -5,9 +5,9 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter.typeString('! Hablemos !')
-    .pauseFor(900)
+    .pauseFor(980)
     .deleteAll()
     .typeString('¿Alguna idea en mente?')
-    .pauseFor(900)
+    .pauseFor(980)
     .deleteAll()
     .start();
