@@ -111,6 +111,15 @@ body {
     }
 }
 
+.logo-container {
+    text-align: center;
+    margin-top: 130px; /* Ajusta este valor según tus necesidades */
+}
+  
+.logo-container img {
+    max-width: 30%; /* Evita que la imagen se salga del contenedor */
+    height: auto; /* Mantiene las proporciones de la imagen */
+}
 
 
 /* Backgorund Images */
