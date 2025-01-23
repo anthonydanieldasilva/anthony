@@ -117,9 +117,20 @@ body {
 }
   
 .logo-container img {
-    max-width: 30%; /* Evita que la imagen se salga del contenedor */
+    max-width: 39%; /* Evita que la imagen se salga del contenedor */
     height: auto; /* Mantiene las proporciones de la imagen */
 }
+
+.logo-container_ratti {
+    text-align: center;
+    margin-top: 110px; /* Ajusta este valor según tus necesidades */
+}
+
+.logo-container_ratti img {
+    max-width: 43%; /* Evita que la imagen se salga del contenedor */
+    height: auto; /* Mantiene las proporciones de la imagen */
+}
+
 
 
 /* Backgorund Images */
