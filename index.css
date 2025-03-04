@@ -286,3 +286,14 @@ input[type="checkbox"] {
   animation: rotarload 0.8s ease-out infinite;
   transform: rotate(0deg);
 }
+
+.footer {
+  text-align: center; /* Centra la imagen horizontalmente */
+  padding: 20px 0; /* Agrega un poco de espacio alrededor de la imagen */
+}
+
+.footer img {
+  max-width: 75px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-top: 725px;
+}
