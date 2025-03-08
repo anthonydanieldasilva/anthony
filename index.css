@@ -387,13 +387,13 @@ input[type="checkbox"] {
 
 .buttons button#next {
   position: absolute;
-  top: 145%;
+  top: 150%;
   right: 15px;
 }
 
 .buttons button#prev {
   position: absolute;
-  top: 145%;
+  top: 150%;
   left: 15px;
 }
 
