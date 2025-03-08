@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* fuente fountsource */
+/* saira-latin-wght-normal */
+@font-face {
+  font-family: 'Saira Variable';
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/saira:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
 *{
   margin: 0;
   padding: 0;
@@ -60,8 +71,6 @@
   clip-path: circle(10px at calc(100% - 45px) 45px);
   transition: all 0.4s ease-in-out;
 
-
-
 }
 
 @keyframes gradient {
@@ -76,9 +85,6 @@
   100% {
     background-position: 0% 50%;
   }
-
-
-
 }
 
 #active:checked~.wrapper {
@@ -238,15 +244,7 @@ input[type="checkbox"] {
 .loader-page {
   position: fixed;
   z-index: 25000;
-  background: linear-gradient(220deg,
-      hsl(0deg 0% 40%) 0%,
-      hsl(344deg 0% 37%) 23%,
-      hsl(344deg 0% 34%) 33%,
-      hsl(344deg 0% 30%) 40%,
-      hsl(344deg 0% 27%) 47%,
-      hsl(344deg 0% 24%) 54%,
-      hsl(344deg 0% 21%) 66%,
-      hsl(0deg 0% 18%) 100%);
+  background-image: linear-gradient(to right bottom, #2e2e2e, #343434, #3a3a3a, #404040, #464646, #4d4d4d, #545454, #5b5b5b, #646464, #6e6e6e, #777777, #818181);
   left: 0px;
   top: 0px;
   height: 100%;
@@ -287,13 +285,236 @@ input[type="checkbox"] {
   transform: rotate(0deg);
 }
 
+
+/* logotpo header*/
 .footer {
   text-align: center; /* Centra la imagen horizontalmente */
-  padding: 20px 0; /* Agrega un poco de espacio alrededor de la imagen */
+  padding: 40px 0; /* Agrega un poco de espacio alrededor de la imagen */
 }
 
 .footer img {
-  max-width: 75px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+  max-width: 80px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
   height: auto; /* Mantiene la proporción de la imagen */
-  margin-top: 725px;
+  
+}
+/* logotpo header*/
+
+/* flechas animadas */
+
+.arrow,
+.arrow:before {
+  position: absolute;
+  left: 50%;
+}
+
+.arrow {
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  top: 90%;
+  /*margin: -20px 0 0 -20px;*/
+  -webkit-transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px #dbdbdb solid;
+  border-bottom: 2px #fff solid;
+}
+
+.arrow:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px #eeeeee solid;
+  border-bottom: 1px #f0f0f0 solid;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-name: arrow;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-10px, -10px);
+  }
+}
+
+/* flechas animadas */
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current {
+  align-items: center;
+  opacity: 1;
+}
+
+.slide h1 {
+  font-family: 'Saira Variable';
+  font-size: 17px;
+  font-weight: 380;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.slide.current .content {
+  opacity: 0.8;
+  transform: translateX(600px);
+  
+}
+
+.buttons button#next {
+  position: absolute;
+  top: 145%;
+  right: 15px;
+}
+
+.buttons button#prev {
+  position: absolute;
+  top: 145%;
+  left: 15px;
+}
+
+.buttons button {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 13px 15px;
+  border-radius: 50%;
+  outline: none;
+}
+
+.buttons button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+@media (max-width: 500px) {
+  .slide .content {
+      bottom: -300px;
+      left: 0;
+      width: 100%;
+      height: 0.4;
+  }
+
+  .slide.current .content {
+      transform: translateY(-300px);
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-top: 30px; /* Ajusta este valor según tus necesidades */
+}
+
+.logo-container img {
+  max-width: 35%; /* Evita que la imagen se salga del contenedor */
+  height: auto; /* Mantiene las proporciones de la imagen */
+}
+
+.logo-container_ratti {
+  text-align: center;
+  margin-top: 30px; /* Ajusta este valor según tus necesidades */
+}
+
+.logo-container_ratti img {
+  max-width: 43%; /* Evita que la imagen se salga del contenedor */
+  height: auto; /* Mantiene las proporciones de la imagen */
+}
+
+
+
+/* Backgorund Images */
+
+.slide:first-child {
+  background: url('/galeria/imagenes/Website\ \(1\).png') no-repeat center top/cover;
+}
+
+.slide:nth-child(2) {
+  background: url('/galeria/imagenes/Website\ \(2\).png') no-repeat center top/cover;
+}
+
+.slide:nth-child(3) {
+  background: url('/galeria/imagenes/Website\ \(3\).png') no-repeat center top/cover;
+}
+
+.slide:nth-child(4) {
+  background: url('/galeria/imagenes/Marketing_Branding\ \(5\).jpg') no-repeat center top/cover;
+}
+
+.slide:nth-child(5) {
+  background: url('/galeria/imagenes/Marketing_Branding\ \(6\).jpg') no-repeat center top/cover;
+}
+
+.slide:nth-child(6) {
+  background: url('/galeria/imagenes/Marketing_Branding\ \(3\).jpg') no-repeat center top/cover;
+}
+
+.slide:nth-child(7) {
+  background: url('/galeria/imagenes/Marketing_Branding\ \(2\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(8) {
+  background: url('/galeria/imagenes/Marketing_Branding\ \(8\).png') no-repeat center top/cover;
+}
+.slide:nth-child(9) {
+  background: url('/galeria/imagenes/Marketing_Branding\ \(1\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(10) {
+  background: url('/galeria/imagenes/Marketing_Branding\ \(9\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(11) {
+  background: url('/galeria/imagenes/Marketing_Branding\ \(11\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(12) {
+  background: url('/galeria/imagenes/Marketing_Branding\ \(10\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(13) {
+  background: url('/galeria/imagenes/Fotografia\ \(7\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(14) {
+  background: url('/galeria/imagenes/Fotografia\ \(3\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(15) {
+  background: url('/galeria/imagenes/Fotografia\ \(1\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(16) {
+  background: url('/galeria/imagenes/Fotografia\ \(9\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(17) {
+  background: url('/galeria/imagenes/Fotografia\ \(10\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(18) {
+  background: url('/galeria/imagenes/Fotografia\ \(2\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(19) {
+  background: url('/galeria/imagenes/Fotografia\ \(4\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(20) {
+  background: url('/galeria/imagenes/Fotografia\ \(8\).jpg') no-repeat center top/cover;
+}
+.slide:nth-child(21) {
+  background: url('/galeria/imagenes/Fotografia\ \(5\).jpg') no-repeat center top/cover;
 }
