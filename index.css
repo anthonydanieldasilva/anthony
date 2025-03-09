@@ -392,13 +392,13 @@ input[type="checkbox"] {
 
 .buttons button#next {
   position: absolute;
-  top: 151%;
+  top: 148%;
   right: 15px;
 }
 
 .buttons button#prev {
   position: absolute;
-  top: 151%;
+  top: 148%;
   left: 15px;
 }
 
@@ -432,7 +432,7 @@ input[type="checkbox"] {
 
 .logo-container {
   text-align: center;
-  margin-top: 30px; /* Ajusta este valor según tus necesidades */
+  margin-top: 90px; /* Ajusta este valor según tus necesidades */
 }
 
 .logo-container img {
@@ -442,7 +442,7 @@ input[type="checkbox"] {
 
 .logo-container_ratti {
   text-align: center;
-  margin-top: 30px; /* Ajusta este valor según tus necesidades */
+  margin-top: 70px; /* Ajusta este valor según tus necesidades */
 }
 
 .logo-container_ratti img {
