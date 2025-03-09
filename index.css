@@ -370,13 +370,18 @@ input[type="checkbox"] {
 }
 
 .slide h1 {
+  position: absolute; /* Posiciona el h1 absolutamente */
+  bottom: 0; /* Lo coloca en la parte inferior del contenedor */
+  left: 0; /* O la posición horizontal que desees */
+  width: 100%; /* O el ancho que desees */
+  text-align: center; /* O la alineación que desees */
+  padding-bottom: 40px;
+
   font-family: 'Saira Variable';
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 380;
   opacity: 0.8;
   letter-spacing: 1px;
-  text-align: center;
-  padding-top: 20px;
 }
 
 .slide.current .content {
