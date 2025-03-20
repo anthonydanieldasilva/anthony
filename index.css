@@ -526,17 +526,75 @@ input[type="checkbox"] {
 
 
 body {
-  background-color: #000;
-
+	background: #000;
 }
-
-#container2 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
+.brainContainer {
+	width: 50vw;
+	height: 50vw;
+	max-height: 400px;
+	max-width: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	cursor: pointer;
+	z-index: -1;
 }
-
-canvas {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.1);
+svg {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+path {
+	fill: transparent;
+}
+.brainPath {
+	stroke: #e7e7e7;
+	stroke-width: 1;
+}
+.brainCircle {
+	stroke: #349b79;
+	fill: #2a942a;
+}
+.brainRect {
+	stroke: #545554;
+	fill: #238323;
+}
+.brainEllipse {
+	stroke: #124612;
+	fill: #235a23;
+}
+.animatePaths {
+	animation: goPath 3000ms alternate infinite;
+}
+.animateCircles {
+	animation: goCircle 3000ms alternate infinite;
+}
+.animateRects {
+	animation: goRect 3000ms alternate infinite;
+}
+@keyframes goPath {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+@keyframes goRect {
+	to {
+		opacity: 0;
+	}
+}
+@keyframes goCircle {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 }
