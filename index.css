@@ -523,3 +523,20 @@ input[type="checkbox"] {
 .slide:nth-child(21) {
   background: url('/galeria/imagenes/Fotografia\ \(5\).jpg') no-repeat center top/cover;
 }
+
+
+body {
+  background-color: #000;
+
+}
+
+#container2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+canvas {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+}
