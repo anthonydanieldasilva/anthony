@@ -293,7 +293,7 @@ input[type="checkbox"] {
 }
 
 .footer img {
-  max-width: 80px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+  max-width: 63px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
   height: auto; /* Mantiene la proporción de la imagen */
   
 }
@@ -553,20 +553,20 @@ path {
 	fill: transparent;
 }
 .brainPath {
-	stroke: #e7e7e7;
+	stroke: #f0f0f0;
 	stroke-width: 1;
 }
 .brainCircle {
-	stroke: #349b79;
-	fill: #2a942a;
+	stroke: #42ad8a;
+	fill: #246424;
 }
 .brainRect {
-	stroke: #545554;
+	stroke: #525252;
 	fill: #238323;
 }
 .brainEllipse {
-	stroke: #124612;
-	fill: #235a23;
+	stroke: #1b4b1b;
+	fill: #117411;
 }
 .animatePaths {
 	animation: goPath 3000ms alternate infinite;
@@ -598,3 +598,5 @@ path {
 		opacity: 0;
 	}
 }
+
+
