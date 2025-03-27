@@ -293,7 +293,7 @@ input[type="checkbox"] {
 }
 
 .footer img {
-  max-width: 82px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+  max-width: 88px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
   height: auto; /* Mantiene la proporción de la imagen */
   
 }
