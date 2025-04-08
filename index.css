@@ -375,7 +375,7 @@ input[type="checkbox"] {
   left: 0; /* O la posición horizontal que desees */
   width: 100%; /* O el ancho que desees */
   text-align: center; /* O la alineación que desees */
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 
   font-family: 'Saira Variable';
   font-size: 20px;
@@ -392,13 +392,13 @@ input[type="checkbox"] {
 
 .buttons button#next {
   position: absolute;
-  top: 150%;
+  top: 146%;
   right: 15px;
 }
 
 .buttons button#prev {
   position: absolute;
-  top: 150%;
+  top: 146%;
   left: 15px;
 }
 
@@ -407,8 +407,8 @@ input[type="checkbox"] {
   background-color: transparent;
   color: #fff;
   cursor: pointer;
-  padding: 13px 15px;
-  border-radius: 50%;
+  padding: 13px 17px;
+  border-radius: 100%;
   outline: none;
 }
 
