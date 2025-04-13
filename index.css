@@ -585,10 +585,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40vh;
+  height: 42vh;
   background-color: #000;
 }
 .fooertext {
+  padding-top: 200px;
   position: absolute;
   font-family: 'Saira Variable';
   text-transform: uppercase;
@@ -732,7 +733,7 @@ footer {
   z-index: 1;  
   top: 50%;           /* Mueve la esquina superior izquierda del logo al 50% vertical */
   left: 50%;          /* Mueve la esquina superior izquierda del logo al 50% horizontal */
-  transform: translate(-50%, 130%); /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
+  transform: translate(-50%, 10%); /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
   max-width: 40%;
 }
