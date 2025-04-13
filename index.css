@@ -288,8 +288,8 @@ input[type="checkbox"] {
 
 .arrow {
   align-items: center;
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   top: 92%;
   margin: -20px 0 0 -10px;
   -webkit-transform: rotate(45deg);
