@@ -585,7 +585,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 42vh;
+  height: 44vh;
   background-color: #000;
 }
 .fooertext {
@@ -729,6 +729,7 @@ footer {
 }
 
 .logo-centrado2 {
+  padding-bottom: 20px;
   position: relative; /* ¡Importante! o absolute / fixed según necesites */
   z-index: 1;  
   top: 50%;           /* Mueve la esquina superior izquierda del logo al 50% vertical */
