@@ -729,7 +729,7 @@ footer {
 }
 
 .logo-centrado2 {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   position: relative; /* ¡Importante! o absolute / fixed según necesites */
   z-index: 1;  
   top: 50%;           /* Mueve la esquina superior izquierda del logo al 50% vertical */
