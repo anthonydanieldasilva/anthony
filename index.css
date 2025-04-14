@@ -223,7 +223,7 @@ input[type="checkbox"] {
 .loader-page {
   position: fixed;
   z-index: 25000;
-  background-image: linear-gradient(to right bottom, #2e2e2e, #343434, #3a3a3a, #404040, #464646, #4d4d4d, #545454, #5b5b5b, #646464, #6e6e6e, #777777, #818181);
+  background-image: radial-gradient(circle, #7a7575, #656161, #514d4d, #3e3b3b, #2c2929);
   left: 0px;
   top: 0px;
   height: 100%;
