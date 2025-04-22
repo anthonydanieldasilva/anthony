@@ -746,7 +746,7 @@ footer {
   left: 50%;          /* Mueve la esquina superior izquierda del logo al 50% horizontal */
   transform: translate(-50%, -65%); /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
-  max-width: 40%;
+  max-width: 35%;
 }
 
 .logo-centrado-slider-2 {
@@ -756,6 +756,6 @@ footer {
   left: 50%;          /* Mueve la esquina superior izquierda del logo al 50% horizontal */
   transform: translate(-50%, 56%); /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
-  max-width: 40%;
+  max-width: 35%;
 }
 
