@@ -738,3 +738,24 @@ footer {
   /* Opcional: Limitar el tamaño máximo del logo */
   max-width: 40%;
 }
+
+.logo-centrado-slider {
+  position: relative; /* ¡Importante! o absolute / fixed según necesites */
+  z-index: 1;  
+  top: 72%;           /* Mueve la esquina superior izquierda del logo al 50% vertical */
+  left: 50%;          /* Mueve la esquina superior izquierda del logo al 50% horizontal */
+  transform: translate(-50%, -65%); /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
+  /* Opcional: Limitar el tamaño máximo del logo */
+  max-width: 40%;
+}
+
+.logo-centrado-slider-2 {
+  position: relative; /* ¡Importante! o absolute / fixed según necesites */
+  z-index: 1;  
+  top: 72%;           /* Mueve la esquina superior izquierda del logo al 50% vertical */
+  left: 50%;          /* Mueve la esquina superior izquierda del logo al 50% horizontal */
+  transform: translate(-50%, 56%); /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
+  /* Opcional: Limitar el tamaño máximo del logo */
+  max-width: 40%;
+}
+
