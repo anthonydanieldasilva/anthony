@@ -9,7 +9,7 @@
 }
 
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -231,8 +231,9 @@ input[type="checkbox"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition:all 2.3s ease;
+  transition: all 2.3s ease;
 }
+
 .loader-page::before {
   content: "";
   position: absolute;
@@ -241,15 +242,22 @@ input[type="checkbox"] {
   height: 50px;
   border-radius: 50%;
   box-sizing: border-box;
-  border-left: 3px solid rgba(50, 150, 176,0);
-  border-top: 3px solid rgba(50, 150, 176,0);
+  border-left: 3px solid rgba(50, 150, 176, 0);
+  border-top: 3px solid rgba(50, 150, 176, 0);
   animation: rotarload 0.6s linear infinite;
   transform: rotate(0deg);
 }
+
 @keyframes rotarload {
-    0%   {transform: rotate(0deg)}
-    100% {transform: rotate(360deg)}
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
 }
+
 .loader-page::after {
   content: "";
   position: absolute;
@@ -267,15 +275,20 @@ input[type="checkbox"] {
 
 /* logotpo header*/
 .footer {
-  text-align: center; /* Centra la imagen horizontalmente */
-  padding: 40px 0; /* Agrega un poco de espacio alrededor de la imagen */
+  text-align: center;
+  /* Centra la imagen horizontalmente */
+  padding: 40px 0;
+  /* Agrega un poco de espacio alrededor de la imagen */
 }
 
 .footer img {
-  max-width: 88px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
-  height: auto; /* Mantiene la proporción de la imagen */
-  
+  max-width: 88px;
+  /* Ajusta el tamaño máximo de la imagen según sea necesario */
+  height: auto;
+  /* Mantiene la proporción de la imagen */
+
 }
+
 /* logotpo header*/
 
 /* flechas animadas */
@@ -318,6 +331,7 @@ input[type="checkbox"] {
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
     transform: translate(-10px, -10px);
@@ -349,11 +363,16 @@ input[type="checkbox"] {
 }
 
 .slide h1 {
-  position: absolute; /* Posiciona el h1 absolutamente */
-  bottom: 0; /* Lo coloca en la parte inferior del contenedor */
-  left: 0; /* O la posición horizontal que desees */
-  width: 100%; /* O el ancho que desees */
-  text-align: center; /* O la alineación que desees */
+  position: absolute;
+  /* Posiciona el h1 absolutamente */
+  bottom: 0;
+  /* Lo coloca en la parte inferior del contenedor */
+  left: 0;
+  /* O la posición horizontal que desees */
+  width: 100%;
+  /* O el ancho que desees */
+  text-align: center;
+  /* O la alineación que desees */
   padding-bottom: 25px;
 
   font-family: 'Saira Variable';
@@ -366,7 +385,7 @@ input[type="checkbox"] {
 .slide.current .content {
   opacity: 0.8;
   transform: translateX(600px);
-  
+
 }
 
 .buttons button#next {
@@ -398,35 +417,41 @@ input[type="checkbox"] {
 
 @media (max-width: 500px) {
   .slide .content {
-      bottom: -300px;
-      left: 0;
-      width: 100%;
-      height: 0.4;
+    bottom: -300px;
+    left: 0;
+    width: 100%;
+    height: 0.4;
   }
 
   .slide.current .content {
-      transform: translateY(-300px);
+    transform: translateY(-300px);
   }
 }
 
 .logo-container {
   text-align: center;
-  margin-top: 90px; /* Ajusta este valor según tus necesidades */
+  margin-top: 90px;
+  /* Ajusta este valor según tus necesidades */
 }
 
 .logo-container img {
-  max-width: 35%; /* Evita que la imagen se salga del contenedor */
-  height: auto; /* Mantiene las proporciones de la imagen */
+  max-width: 35%;
+  /* Evita que la imagen se salga del contenedor */
+  height: auto;
+  /* Mantiene las proporciones de la imagen */
 }
 
 .logo-container_ratti {
   text-align: center;
-  margin-top: 70px; /* Ajusta este valor según tus necesidades */
+  margin-top: 70px;
+  /* Ajusta este valor según tus necesidades */
 }
 
 .logo-container_ratti img {
-  max-width: 43%; /* Evita que la imagen se salga del contenedor */
-  height: auto; /* Mantiene las proporciones de la imagen */
+  max-width: 43%;
+  /* Evita que la imagen se salga del contenedor */
+  height: auto;
+  /* Mantiene las proporciones de la imagen */
 }
 
 
@@ -460,122 +485,151 @@ input[type="checkbox"] {
 .slide:nth-child(7) {
   background: url('/galeria/imagenes/Marketing_Branding\ \(2\).jpg') no-repeat center top/cover;
 }
+
 .slide:nth-child(8) {
   background: url('/galeria/imagenes/Marketing_Branding\ \(8\).png') no-repeat center top/cover;
 }
+
 .slide:nth-child(9) {
   background: url('/galeria/imagenes/Marketing_Branding\ \(5\).jpg') no-repeat center top/cover;
 }
+
 .slide:nth-child(10) {
   background: url('/galeria/imagenes/Marketing_Branding\ \(9\).jpg') no-repeat center top/cover;
 }
+
 .slide:nth-child(11) {
   background: url('/galeria/imagenes/Marketing_Branding\ \(11\).jpg') no-repeat center top/cover;
 }
+
 .slide:nth-child(12) {
   background: url('/galeria/imagenes/Marketing_Branding\ \(10\).jpg') no-repeat center top/cover;
 }
+
 .slide:nth-child(13) {
   background: url('/galeria/imagenes/Fotografia\ \(7\).jpeg') no-repeat center top/cover;
 }
+
 .slide:nth-child(14) {
   background: url('/galeria/imagenes/Fotografia\ \(3\).jpg') no-repeat center top/cover;
 }
+
 .slide:nth-child(15) {
   background: url('/galeria/imagenes/Fotografia\ \(1\).jpg') no-repeat center top/cover;
 }
+
 .slide:nth-child(16) {
   background: url('/galeria/imagenes/Fotografia\ \(9\).jpg') no-repeat center top/cover;
 }
+
 .slide:nth-child(17) {
   background: url('/galeria/imagenes/Fotografia\ \(10\).jpg') no-repeat center top/cover;
 }
+
 .slide:nth-child(18) {
   background: url('/galeria/imagenes/Fotografia\ \(2\).jpg') no-repeat center top/cover;
 }
+
 .slide:nth-child(19) {
   background: url('/galeria/imagenes/Fotografia\ \(4\).jpg') no-repeat center top/cover;
 }
+
 .slide:nth-child(20) {
   background: url('/galeria/imagenes/Fotografia\ \(8\).jpg') no-repeat center top/cover;
 }
+
 .slide:nth-child(21) {
   background: url('/galeria/imagenes/Fotografia\ \(5\).jpg') no-repeat center top/cover;
 }
 
 
 body {
-	background: #000;
+  background: #000;
 }
+
 .brainContainer {
-	width: 50vw;
-	height: 50vw;
-	max-height: 400px;
-	max-width: 400px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	overflow: hidden;
-	cursor: pointer;
-	z-index: -1;
+  width: 50vw;
+  height: 50vw;
+  max-height: 400px;
+  max-width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  cursor: pointer;
+  z-index: -1;
 }
+
 svg {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
+
 path {
-	fill: transparent;
+  fill: transparent;
 }
+
 .brainPath {
-	stroke: #f0f0f0;
-	stroke-width: 1;
+  stroke: #f0f0f0;
+  stroke-width: 1;
 }
+
 .brainCircle {
-	stroke: #42ad8a;
-	fill: #246424;
+  stroke: #42ad8a;
+  fill: #246424;
 }
+
 .brainRect {
-	stroke: #525252;
-	fill: #238323;
+  stroke: #525252;
+  fill: #238323;
 }
+
 .brainEllipse {
-	stroke: #1b4b1b;
-	fill: #117411;
+  stroke: #1b4b1b;
+  fill: #117411;
 }
+
 .animatePaths {
-	animation: goPath 3000ms alternate infinite;
+  animation: goPath 3000ms alternate infinite;
 }
+
 .animateCircles {
-	animation: goCircle 3000ms alternate infinite;
+  animation: goCircle 3000ms alternate infinite;
 }
+
 .animateRects {
-	animation: goRect 3000ms alternate infinite;
+  animation: goRect 3000ms alternate infinite;
 }
+
 @keyframes goPath {
-	to {
-		stroke-dashoffset: 0;
-	}
+  to {
+    stroke-dashoffset: 0;
+  }
 }
+
 @keyframes goRect {
-	to {
-		opacity: 0;
-	}
+  to {
+    opacity: 0;
+  }
 }
+
 @keyframes goCircle {
-	0% {
-		opacity: 0;
-	}
-	50% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 
@@ -585,11 +639,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 44vh;
+  height: 80vh;
   background-color: #000;
 }
+
 .fooertext {
-  padding-top: 200px;
+  padding-top: 480px;
   position: absolute;
   font-family: 'Saira Variable';
   text-transform: uppercase;
@@ -607,11 +662,11 @@ footer {
 
 @keyframes animate {
   0% {
-      background-position: -500%;
+    background-position: -500%;
   }
 
   100% {
-      background-position: 500%;
+    background-position: 500%;
   }
 }
 
@@ -621,11 +676,13 @@ footer {
   width: 50%;
   height: 400px;
 }
+
 .imagezoomimagen {
   background-image: url("/Minimalist\ Black\ Wallpaper\ With\ 3D\ Grey\ Hexagonal\ Designs.png");
   background-size: cover;
   background-position: center center;
 }
+
 .bgzomm {
   position: fixed;
   width: 100%;
@@ -633,129 +690,181 @@ footer {
   top: 0px;
   left: 0px;
 }
+
 @-webkit-keyframes zoom-a {
   0% {
     background-size: 100% auto;
   }
+
   100% {
     background-size: 120% auto;
   }
 }
+
 @-moz-keyframes zoom-a {
   0% {
     background-size: 100% auto;
   }
+
   100% {
     background-size: 120% auto;
   }
 }
+
 @-o-keyframes zoom-a {
   0% {
     background-size: 100% auto;
   }
+
   100% {
     background-size: 120% auto;
   }
 }
+
 @keyframes zoom-a {
   0% {
     background-size: 100% auto;
   }
+
   100% {
     background-size: 120% auto;
   }
 }
+
 .type-a {
-  -webkit-animation: zoom-a 10s linear infinite alternate; /* Safari 4+ */
-  -moz-animation: zoom-a 10s linear infinite alternate; /* Fx 5+ */
-  -o-animation: zoom-a 10s linear infinite alternate; /* Opera 12+ */
-  animation: zoom-a 10s linear infinite alternate; /* IE 10+, Fx 29+ */
+  -webkit-animation: zoom-a 10s linear infinite alternate;
+  /* Safari 4+ */
+  -moz-animation: zoom-a 10s linear infinite alternate;
+  /* Fx 5+ */
+  -o-animation: zoom-a 10s linear infinite alternate;
+  /* Opera 12+ */
+  animation: zoom-a 10s linear infinite alternate;
+  /* IE 10+, Fx 29+ */
 }
+
 @-webkit-keyframes zoom-b {
   0% {
     -ms-transform: scale(1, 1);
     transform: scale(1, 1) translateZ(1px);
   }
+
   100% {
     -ms-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2) translateZ(1px);
   }
 }
+
 @-moz-keyframes zoom-b {
   0% {
     -ms-transform: scale(1, 1);
     transform: scale(1, 1) translateZ(1px);
   }
+
   100% {
     -ms-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2) translateZ(1px);
   }
 }
+
 @-o-keyframes zoom-b {
   0% {
     -ms-transform: scale(1, 1);
     transform: scale(1, 1) translateZ(1px);
   }
+
   100% {
     -ms-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2) translateZ(1px);
   }
 }
+
 @keyframes zoom-b {
   0% {
     -ms-transform: scale(1, 1);
     transform: scale(1, 1) translateZ(1px);
   }
+
   100% {
     -ms-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2) translateZ(1px);
   }
 }
+
 .type-b {
-  -webkit-animation: zoom-b 5s linear infinite alternate; /* Safari 4+ */
-  -moz-animation: zoom-b 5s linear infinite alternate; /* Fx 5+ */
-  -o-animation: zoom-b 5s linear infinite alternate; /* Opera 12+ */
-  animation: zoom-b 5s linear infinite alternate; /* IE 10+, Fx 29+ */
+  -webkit-animation: zoom-b 5s linear infinite alternate;
+  /* Safari 4+ */
+  -moz-animation: zoom-b 5s linear infinite alternate;
+  /* Fx 5+ */
+  -o-animation: zoom-b 5s linear infinite alternate;
+  /* Opera 12+ */
+  animation: zoom-b 5s linear infinite alternate;
+  /* IE 10+, Fx 29+ */
 }
 
 .logo-centrado {
-  position: relative; /* ¡Importante! o absolute / fixed según necesites */
-  z-index: 1;  
-  top: 50%;           /* Mueve la esquina superior izquierda del logo al 50% vertical */
-  left: 50%;          /* Mueve la esquina superior izquierda del logo al 50% horizontal */
-  transform: translate(-50%, -65%); /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
+  position: relative;
+  /* ¡Importante! o absolute / fixed según necesites */
+  z-index: 1;
+  top: 50%;
+  /* Mueve la esquina superior izquierda del logo al 50% vertical */
+  left: 50%;
+  /* Mueve la esquina superior izquierda del logo al 50% horizontal */
+  transform: translate(-50%, -65%);
+  /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
   max-width: 62%;
 }
 
 .logo-centrado2 {
   padding-bottom: 50px;
-  position: relative; /* ¡Importante! o absolute / fixed según necesites */
-  z-index: 1;  
-  top: 50%;           /* Mueve la esquina superior izquierda del logo al 50% vertical */
-  left: 50%;          /* Mueve la esquina superior izquierda del logo al 50% horizontal */
-  transform: translate(-50%, 10%); /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
+  position: relative;
+  /* ¡Importante! o absolute / fixed según necesites */
+  z-index: 1;
+  top: 50%;
+  /* Mueve la esquina superior izquierda del logo al 50% vertical */
+  left: 50%;
+  /* Mueve la esquina superior izquierda del logo al 50% horizontal */
+  transform: translate(-50%, 10%);
+  /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
   max-width: 35%;
 }
 
 .logo-centrado-slider {
-  position: relative; /* ¡Importante! o absolute / fixed según necesites */
-  z-index: 1;  
-  top: 72%;           /* Mueve la esquina superior izquierda del logo al 50% vertical */
-  left: 50%;          /* Mueve la esquina superior izquierda del logo al 50% horizontal */
-  transform: translate(-50%, -65%); /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
+  position: relative;
+  /* ¡Importante! o absolute / fixed según necesites */
+  z-index: 1;
+  top: 72%;
+  /* Mueve la esquina superior izquierda del logo al 50% vertical */
+  left: 50%;
+  /* Mueve la esquina superior izquierda del logo al 50% horizontal */
+  transform: translate(-50%, -65%);
+  /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
   max-width: 35%;
 }
 
 .logo-centrado-slider-2 {
-  position: relative; /* ¡Importante! o absolute / fixed según necesites */
-  z-index: 1;  
-  top: 72%;           /* Mueve la esquina superior izquierda del logo al 50% vertical */
-  left: 50%;          /* Mueve la esquina superior izquierda del logo al 50% horizontal */
-  transform: translate(-50%, 56%); /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
+  position: relative;
+  /* ¡Importante! o absolute / fixed según necesites */
+  z-index: 1;
+  top: 72%;
+  /* Mueve la esquina superior izquierda del logo al 50% vertical */
+  left: 50%;
+  /* Mueve la esquina superior izquierda del logo al 50% horizontal */
+  transform: translate(-50%, 56%);
+  /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
   max-width: 35%;
 }
 
+
+.sobremi{
+  padding-top: 15px;    /* Relleno superior de 15 píxeles */
+  padding-bottom: 15px;
+  height: 170px;
+  
+  img{
+    max-width: 30%;
+  }
+}
