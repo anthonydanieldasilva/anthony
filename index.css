@@ -655,12 +655,12 @@ footer {
   font-family: 'Saira Variable';
   text-transform: uppercase;
   font-size: 12px;
-  letter-spacing: 2px;
+  letter-spacing: 1.6px;
   overflow: hidden;
   background: linear-gradient(90deg, #000, #fff, #000);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 4.5s linear infinite;
+  animation: animate 3.3s linear infinite;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
@@ -848,7 +848,7 @@ footer {
   transform: translate(-50%, 10%);
   /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
-  max-width: 20%;
+  max-width: 18%;
 }
 
 .logo-centrado-slider {
