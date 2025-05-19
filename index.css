@@ -639,7 +639,7 @@ path {
 footer {
   margin: 0;
   padding: 0;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -647,8 +647,11 @@ footer {
 }
 
 .fooertext {
-  padding-top: 480px;
-  position: absolute;
+  text-align: center;
+  width: 100%; /* Define un ancho */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
   font-family: 'Saira Variable';
   text-transform: uppercase;
   font-size: 12px;
@@ -832,6 +835,20 @@ footer {
   /* Opcional: Limitar el tamaño máximo del logo */
   max-width: 35%;
   
+}
+.logo-centrado3{
+  padding-bottom: 50px;
+  position: relative;
+  /* ¡Importante! o absolute / fixed según necesites */
+  z-index: 1;
+  top: 50%;
+  /* Mueve la esquina superior izquierda del logo al 50% vertical */
+  left: 50%;
+  /* Mueve la esquina superior izquierda del logo al 50% horizontal */
+  transform: translate(-50%, 10%);
+  /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
+  /* Opcional: Limitar el tamaño máximo del logo */
+  max-width: 20%;
 }
 
 .logo-centrado-slider {
