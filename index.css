@@ -852,18 +852,38 @@ footer {
   /* Opcional: Limitar el tamaño máximo del logo */
   max-width: 18%;
 }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  /* Al inicio, tamaño normal */
+  50% {
+    transform: scale(1.1);
+  }
+
+  /* A la mitad, se agranda un 10% */
+  100% {
+    transform: scale(1);
+  }
+
+  /* Al final, vuelve al tamaño normal */
+}
+
 .logo-centrado4 {
   position: relative;
   /* ¡Importante! o absolute / fixed según necesites */
   z-index: 1;
   top: 50%;
   /* Mueve la esquina superior izquierda del logo al 50% vertical */
-  left: 50%;
+  left: 44%;
   /* Mueve la esquina superior izquierda del logo al 50% horizontal */
   transform: translate(-50%, 10%);
   /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
   max-width: 10%;
+  animation: pulse 1.4s infinite ease-in-out;
 }
 
 .logo-centrado-slider {
