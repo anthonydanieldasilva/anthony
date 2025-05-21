@@ -648,7 +648,8 @@ footer {
 
 .fooertext {
   text-align: center;
-  width: 100%; /* Define un ancho */
+  width: 100%;
+  /* Define un ancho */
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -834,10 +835,11 @@ footer {
   /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
   max-width: 35%;
-  
+
 }
-.logo-centrado3{
-  padding-bottom: 50px;
+
+.logo-centrado3 {
+  padding-top: 50px;
   position: relative;
   /* ¡Importante! o absolute / fixed según necesites */
   z-index: 1;
@@ -849,6 +851,19 @@ footer {
   /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
   max-width: 18%;
+}
+.logo-centrado4 {
+  position: relative;
+  /* ¡Importante! o absolute / fixed según necesites */
+  z-index: 1;
+  top: 50%;
+  /* Mueve la esquina superior izquierda del logo al 50% vertical */
+  left: 50%;
+  /* Mueve la esquina superior izquierda del logo al 50% horizontal */
+  transform: translate(-50%, 10%);
+  /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
+  /* Opcional: Limitar el tamaño máximo del logo */
+  max-width: 10%;
 }
 
 .logo-centrado-slider {
@@ -880,9 +895,10 @@ footer {
 }
 
 
-.sobremi{
-  padding-top: 15px;    /* Relleno superior de 15 píxeles */
+.sobremi {
+  padding-top: 15px;
+  /* Relleno superior de 15 píxeles */
   padding-bottom: 15px;
   height: 170px;
-  
+
 }
