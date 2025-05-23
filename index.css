@@ -877,12 +877,12 @@ footer {
   z-index: 1;
   top: 50%;
   /* Mueve la esquina superior izquierda del logo al 50% vertical */
-  left: 44%;
+  left: 46%;
   /* Mueve la esquina superior izquierda del logo al 50% horizontal */
   transform: translate(-50%, 10%);
   /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
-  max-width: 10%;
+  max-width: 7%;
   animation: pulse 1.4s infinite ease-in-out;
 }
 
