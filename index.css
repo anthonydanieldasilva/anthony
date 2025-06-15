@@ -823,7 +823,7 @@ footer {
 }
 
 .logo-centrado2 {
-  padding-bottom: 50px;
+ 
   position: relative;
   /* ¡Importante! o absolute / fixed según necesites */
   z-index: 1;
