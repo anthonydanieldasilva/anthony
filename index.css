@@ -828,7 +828,7 @@ footer {
   transform: translate(-50%, 10%);
   /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
-  max-width: 35%;
+  max-width: 30%;
 
 }
 
