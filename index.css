@@ -456,35 +456,35 @@ input[type="checkbox"] {
 /* Backgorund Images */
 
 .slide:first-child {
-  background: url('/galeria/imagenes/Website\ \(1\).png') no-repeat center top/cover;
+  background: url('/galeria/imagenes/Fotografia\ \(4\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(2) {
-  background: url('/galeria/imagenes/Website\ \(2\).png') no-repeat center top/cover;
+  background: url('/galeria/imagenes/Fotografia\ \(9\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(3) {
-  background: url('/galeria/imagenes/Website\ \(3\).png') no-repeat center top/cover;
+  background: url('/galeria/imagenes/Fotografia\ \(1\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(4) {
-  background: url('/galeria/imagenes/Marketing_Branding\ \(1\).jpg') no-repeat center top/cover;
+  background: url('/galeria/imagenes/DSC00307.jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(5) {
-  background: url('/galeria/imagenes/Marketing_Branding\ \(6\).jpg') no-repeat center top/cover;
+  background: url('/galeria/imagenes/Marketing_Branding\ \(8\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(6) {
-  background: url('/galeria/imagenes/Marketing_Branding\ \(3\).jpg') no-repeat center top/cover;
+  background: url('/galeria/imagenes/Fotografia\ \(3\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(7) {
-  background: url('/galeria/imagenes/Marketing_Branding\ \(2\).jpg') no-repeat center top/cover;
+  background: url('/galeria/imagenes/Fotografia\ \(2\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(8) {
-  background: url('/galeria/imagenes/Marketing_Branding\ \(8\).jpg') no-repeat center top/cover;
+  background: url('/galeria/imagenes/DSC00301.jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(9) {
@@ -492,11 +492,11 @@ input[type="checkbox"] {
 }
 
 .slide:nth-child(10) {
-  background: url('/galeria/imagenes/Marketing_Branding\ \(9\).jpg') no-repeat center top/cover;
+  background: url('/galeria/imagenes/Fotografia\ \(10\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(11) {
-  background: url('/galeria/imagenes/Marketing_Branding\ \(11\).jpg') no-repeat center top/cover;
+  background: url('/galeria/imagenes/Fotografia\ \(5\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(12) {
@@ -813,7 +813,7 @@ footer {
   transform: translate(-50%, -65%);
   /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
-  max-width: 62%;
+  max-width: 55%;
 }
 
 .logo-centrado2 {
