@@ -457,88 +457,58 @@ input[type="checkbox"] {
 /* Backgorund Images */
 
 .slide:first-child {
-  background: url('/galeria/imagenes/Fotografia\ \(4\).jpg') no-repeat center top/cover;
+  background: url('/Fotografia\ \(4\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(2) {
-  background: url('/galeria/imagenes/Fotografia\ \(9\).jpg') no-repeat center top/cover;
+  background: url('/Fotografia\ \(9\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(3) {
-  background: url('/galeria/imagenes/Fotografia\ \(1\).jpg') no-repeat center top/cover;
+  background: url('/Fotografia\ \(1\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(4) {
-  background: url('/galeria/imagenes/DSC00307.jpg') no-repeat center top/cover;
+  background: url('/DSC00307.jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(5) {
-  background: url('/galeria/imagenes/Marketing_Branding\ \(8\).jpg') no-repeat center top/cover;
+  background: url('/Marketing_Branding\ \(8\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(6) {
-  background: url('/galeria/imagenes/Fotografia\ \(3\).jpg') no-repeat center top/cover;
+  background: url('/Fotografia\ \(3\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(7) {
-  background: url('/galeria/imagenes/Fotografia\ \(2\).jpg') no-repeat center top/cover;
+  background: url('/DSC00301.jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(8) {
-  background: url('/galeria/imagenes/DSC00301.jpg') no-repeat center top/cover;
+  background: url('/Marketing_Branding\ \(5\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(9) {
-  background: url('/galeria/imagenes/Marketing_Branding\ \(5\).jpg') no-repeat center top/cover;
+  background: url('/Marketing_Branding\ \(10\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(10) {
-  background: url('/galeria/imagenes/Fotografia\ \(10\).jpg') no-repeat center top/cover;
+  background: url('/Fotografia\ \(5\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(11) {
-  background: url('/galeria/imagenes/Fotografia\ \(5\).jpg') no-repeat center top/cover;
+  background: url('/Fotografia\ \(2\).jpg') no-repeat center top/cover;
 }
 
 .slide:nth-child(12) {
-  background: url('/galeria/imagenes/Marketing_Branding\ \(10\).jpg') no-repeat center top/cover;
+  background: url('/Fotografia\ \(7\).jpeg') no-repeat center top/cover;
 }
 
 .slide:nth-child(13) {
-  background: url('/galeria/imagenes/Fotografia\ \(7\).jpeg') no-repeat center top/cover;
+  background: url('/Fotografia\ \(10\).jpg') no-repeat center top/cover;
 }
 
-.slide:nth-child(14) {
-  background: url('/galeria/imagenes/Fotografia\ \(3\).jpg') no-repeat center top/cover;
-}
 
-.slide:nth-child(15) {
-  background: url('/galeria/imagenes/Fotografia\ \(1\).jpg') no-repeat center top/cover;
-}
-
-.slide:nth-child(16) {
-  background: url('/galeria/imagenes/Fotografia\ \(9\).jpg') no-repeat center top/cover;
-}
-
-.slide:nth-child(17) {
-  background: url('/galeria/imagenes/Fotografia\ \(10\).jpg') no-repeat center top/cover;
-}
-
-.slide:nth-child(18) {
-  background: url('/galeria/imagenes/Fotografia\ \(2\).jpg') no-repeat center top/cover;
-}
-
-.slide:nth-child(19) {
-  background: url('/galeria/imagenes/Fotografia\ \(4\).jpg') no-repeat center top/cover;
-}
-
-.slide:nth-child(20) {
-  background: url('/galeria/imagenes/Fotografia\ \(8\).jpg') no-repeat center top/cover;
-}
-
-.slide:nth-child(21) {
-  background: url('/galeria/imagenes/Fotografia\ \(5\).jpg') no-repeat center top/cover;
-}
 
 
 body {
