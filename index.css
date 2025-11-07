@@ -626,7 +626,7 @@ footer {
   background: linear-gradient(90deg, #000, #676767, #000);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 3.3s linear infinite;
+  animation: animate 5.6s linear infinite;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
@@ -877,4 +877,28 @@ footer {
   /* Desplaza el logo hacia atrás por la mitad de su propio tamaño */
   /* Opcional: Limitar el tamaño máximo del logo */
   max-width: 35%;
+}
+
+
+
+@keyframes background-drift {
+  0% {
+    background-position: 0% center;
+  }
+  
+  100% {
+    background-position: -200% center;
+  }
+}
+.magic {
+  position: relative;
+  display: inline-block;
+  color: transparent;
+  background: linear-gradient(90deg, #2d6b8080, #3c638f5e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  animation: background-drift 5s infinite;
+  font-size: 14px;
+
 }
